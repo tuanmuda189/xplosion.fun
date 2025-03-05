@@ -50,3 +50,56 @@
     </div>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Liquidity Pool ID Generator</title>
+  <!-- Include the js-stellar-base library via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/js-stellar-base@6.0.1/build/stellar-base.min.js"></script>
+</head>
+<body>
+  <h1>Liquidity Pool ID Generator</h1>
+  <p>This tool computes the liquidity pool ID for an asset pair: Native XLM and your token XPLO.</p>
+  
+  <label for="assetCode">Asset Code:</label>
+  <input id="assetCode" type="text" value="XPLO">
+  <br><br>
+  
+  <label for="assetIssuer">Asset Issuer:</label>
+  <input id="assetIssuer" type="text" value="GBUGKQMLVIIDFFWH6GB5T7TSWCZNZPBOMEGZK3XT655QXRCH5EPEZYVL">
+  <br><br>
+  
+  <button id="generate">Generate Liquidity Pool ID</button>
+  <p id="output"></p>
+  
+  <script>
+    document.getElementById('generate').addEventListener('click', function() {
+      // Retrieve the asset code and issuer from input fields.
+      const assetCode = document.getElementById('assetCode').value;
+      const assetIssuer = document.getElementById('assetIssuer').value;
+      
+      // Destructure the necessary functions from js-stellar-base.
+      const { Asset, LiquidityPoolId, LiquidityPoolFeeV18 } = stellarBase;
+      
+      // Define assetA as native XLM and assetB as your token.
+      const assetA = Asset.native();
+      const assetB = new Asset(assetCode, assetIssuer);
+      
+      // Compute the liquidity pool ID using the constant product pool parameters.
+      const poolIdBuffer = LiquidityPoolId.fromConstantProduct({
+        assetA: assetA,
+        assetB: assetB,
+        fee: LiquidityPoolFeeV18  // Standard fee (30 basis points)
+      });
+      
+      // Convert the resulting buffer to a hex string.
+      const poolIdHex = poolIdBuffer.toString("hex");
+      
+      // Display the computed Liquidity Pool ID.
+      document.getElementById('output').textContent = "Liquidity Pool ID: " + poolIdHex;
+    });
+  </script>
+</body>
+</html>
