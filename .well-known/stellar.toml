@@ -13,6 +13,17 @@ status="live"
 display_decimals=5
 name="XPLO"
 fixed_number=30000000000
-desc="XPLO is a blockchain asset on the Stellar network by xplosion, designed for entertainment and rapid gains"
+desc="XPLO is a blockchain asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
 conditions="Maximum supply of XPLO is 30B tokens only"
 image="https://xplosion.fun/assets/XPLO.gif"
+
+[[CURRENCIES]] 
+code="XONE"
+issuer="GCS7MH7GMYWDS74HGS65JU3KV3YK3ZC2V7EVZKJU53A7MCXLA74URUHE"
+status="live"
+display_decimals=5
+name="XONE"
+fixed_number=30000000000
+desc="XONE is a blockchain asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
+conditions="Maximum supply of XONE is 30B tokens only"
+image="https://xplosion.fun/assets/XONE.gif"
