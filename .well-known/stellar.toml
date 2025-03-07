@@ -27,3 +27,14 @@ fixed_number=30000000000
 desc="XONE is a blockchain asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
 conditions="Maximum supply of XONE is 30B tokens only"
 image="https://xplosion.fun/assets/XONE.gif"
+
+[[CURRENCIES]] 
+code="XTWO"
+issuer="GDFCXAW6HV2LEVOKN5S3XFG2W7PY53RRZ425TRALLCL7HUU4HXC4EP42"
+status="live"
+display_decimals=5
+name="XTWO"
+fixed_number=30000000000
+desc="XTWO is a blockchain asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
+conditions="Maximum supply of XTWO is 30B tokens only"
+image="https://xplosion.fun/assets/XTWO.gif"
