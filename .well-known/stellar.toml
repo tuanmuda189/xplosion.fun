@@ -38,3 +38,14 @@ fixed_number=30000000000
 desc="XTWO is a blockchain asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
 conditions="Maximum supply of XTWO is 30B tokens only"
 image="https://xplosion.fun/assets/XTWO.gif"
+
+[[CURRENCIES]] 
+code="BTCX"
+issuer="GCTCDQUXS3PLUHS5RTOA5KZUDEDPZOR2BDXKU22FVKFEB3CSJ3NMXMEF"
+status="live"
+display_decimals=5
+name="BTCX"
+fixed_number=30000000000
+desc="BTCX is not Bitcoin. It's a high-potential digital asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
+conditions="Maximum supply of BTCX is 30B tokens only"
+image="https://xplosion.fun/assets/BTCX.gif"
