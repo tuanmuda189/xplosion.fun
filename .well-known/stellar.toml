@@ -49,3 +49,14 @@ fixed_number=30000000000
 desc="BTCX is not Bitcoin. It's a high-potential digital asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
 conditions="Maximum supply of BTCX is 30B tokens only"
 image="https://xplosion.fun/assets/BTCX.gif"
+
+[[CURRENCIES]] 
+code="ONEx"
+issuer="GAHY5FKKMUKB2X23M4URESKQNABIYGCUQTIEG7DP7WF26M5TAKUTUXAZ"
+status="live"
+display_decimals=5
+name="ONEx"
+fixed_number=30000000000
+desc="ONEx is a blockchain asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
+conditions="Maximum supply of ONEx is 30B tokens only"
+image="https://xplosion.fun/assets/ONEx.gif"
