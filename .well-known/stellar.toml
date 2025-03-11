@@ -60,3 +60,14 @@ fixed_number=30000000000
 desc="ONEx is a blockchain asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
 conditions="Maximum supply of ONEx is 30B tokens only"
 image="https://xplosion.fun/assets/ONEx.gif"
+
+[[CURRENCIES]] 
+code="TWOx"
+issuer="GC3OPQ6WQOW2ID7KGF46IZWA6H3ULZWF2KVJQHTXO46O5L4PXJ5E4SHE"
+status="live"
+display_decimals=5
+name="TWOx"
+fixed_number=30000000000
+desc="TWOx is a blockchain asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
+conditions="Maximum supply of TWOx is 30B tokens only"
+image="https://xplosion.fun/assets/TWOx.gif"
