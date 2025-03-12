@@ -71,3 +71,14 @@ fixed_number=30000000000
 desc="TWOx is a blockchain asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
 conditions="Maximum supply of TWOx is 30B tokens only"
 image="https://xplosion.fun/assets/TWOx.gif"
+
+[[CURRENCIES]] 
+code="ETHx"
+issuer="GAXWKSO5QIIVEDDJYVTEBRVUN4J2BZD4SIYIOMKZHSB2UKMLWIREJIUS"
+status="live"
+display_decimals=5
+name="ETHx"
+fixed_number=30000000000
+desc="ETHx is not Ethereum. It's a high-potential digital asset on the Stellar network by Xplosion, designed for entertainment and rapid gains"
+conditions="Maximum supply of ETHx is 30B tokens only"
+image="https://xplosion.fun/assets/ETHx.png"
